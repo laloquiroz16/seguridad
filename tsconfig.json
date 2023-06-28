@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "jsx": "react",
+    "skipLibCheck": true,
+    "tsBuildInfoFile": "node_modules/.cache/tsconfig.tsbuildinfo",
+    "paths": {
+      "@base/*": ["app/modules/base/*"],
+      "@models/*": ["app/models/*"],
+      "@assets/*": ["app/assets/*"],
+      "@performance/*": ["app/modules/performance/*"],
+      "@shared/*": ["app/modules/shared/*"],
+      "@continuous-feedback/*": ["app/modules/continuous-feedback/*"],
+      "@action-plans/*": ["app/modules/actionplan/*"],
+      "@translations": ["app/modules/translations/translations.module"],
+      "@access-management/*": ["app/modules/access_management/*"],
+      "@engagement/*": ["app/modules/engagement/*"],
+      "@app": ["app/app"],
+      "@home/*": ["app/modules/home/*"],
+      "@gptw/*": ["app/modules/gptw/*"],
+      "@survey/*": ["app/modules/survey/*"],
+      "@survey-dimensions-management/*": [
+        "app/modules/survey-dimensions-management/*"
+      ],
+      "@talent-management/*": ["app/modules/talent_management/*"],
+      "@mocks": ["__mocks__/index"],
+      "@satisfaction/*": ["app/modules/satisfaction/*"],
+      "@impersonation/*": ["app/modules/impersonation/*"],
+      "@enums/*": ["app/enums/*"],
+      "@configs/*": ["app/configs/*"],
+      "@src/*": ["src/*"],
+      "@src/performance/*": ["src/performance/*"],
+      "@src/api/*": ["src/api/*"],
+      "@providers/*": ["src/api/providers/*"],
+      "@i18n/*": ["i18n/*"]
+    }
+  },
+  "include": ["app", "src", "i18n"]
+}

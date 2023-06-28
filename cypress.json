@@ -1,0 +1,12 @@
+{
+  "env": {
+    "app_url": "https://testing-app.rankmi.com/",
+    "api_url": "https://testing-api.rankmi.com/",
+    "test_username": "cborchardt1@bbc.co.uk",
+    "test_password": "q2FmNHKgeUtr43Nz",
+    "test_firstname": "Coraline"
+  },
+  "video": false,
+  "screenshotOnRunFailure": false,
+  "defaultCommandTimeout": 30000000
+}
